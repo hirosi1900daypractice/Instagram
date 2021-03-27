@@ -25,7 +25,6 @@
 		F6AE9D3825E0DC8E0067D47D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AE9D3725E0DC8E0067D47D /* TabBarController.swift */; };
 		F6AE9D3B25E0E8EF0067D47D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6AE9D3A25E0E8EF0067D47D /* GoogleService-Info.plist */; };
 		F6C878B1260B76E800E60BAD /* InputCommentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C878B0260B76E800E60BAD /* InputCommentController.swift */; };
-		F6C878B4260E0CF300E60BAD /* comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C878B3260E0CF300E60BAD /* comment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +50,6 @@
 		F6AE9D3725E0DC8E0067D47D /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		F6AE9D3A25E0E8EF0067D47D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F6C878B0260B76E800E60BAD /* InputCommentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputCommentController.swift; sourceTree = "<group>"; };
-		F6C878B3260E0CF300E60BAD /* comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +118,6 @@
 				F6AE9D3725E0DC8E0067D47D /* TabBarController.swift */,
 				F6899A3925E1F0530035476C /* Const.swift */,
 				F6899A3C25E288D60035476C /* postData.swift */,
-				F6C878B3260E0CF300E60BAD /* comment.swift */,
 				F6899A4325E28A670035476C /* PostTableViewCell.swift */,
 				F6899A4425E28A670035476C /* PostTableViewCell.xib */,
 			);
@@ -254,7 +251,6 @@
 				F6AE9D2025E0CEEE0067D47D /* LoginViewController.swift in Sources */,
 				F6AE9D0B25E0CD910067D47D /* AppDelegate.swift in Sources */,
 				F6AE9D0D25E0CD910067D47D /* SceneDelegate.swift in Sources */,
-				F6C878B4260E0CF300E60BAD /* comment.swift in Sources */,
 				F6899A3A25E1F0530035476C /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

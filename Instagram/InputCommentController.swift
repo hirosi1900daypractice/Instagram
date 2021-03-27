@@ -31,7 +31,7 @@ class InputCommentController: UIViewController {
             self.dismiss(animated: true, completion: nil)
         }
         }else{
-            return
+            self.dismiss(animated: true, completion: nil)
         }
     }
     override func viewDidLoad() {
