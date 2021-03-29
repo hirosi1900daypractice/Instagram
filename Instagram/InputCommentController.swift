@@ -27,7 +27,6 @@ class InputCommentController: UIViewController {
                 // likesに更新データを書き込む
                 let postRef = Firestore.firestore().collection(Const.PostPath).document(postData.id)
                 postRef.updateData(["comment": updateValue])
-        
             self.dismiss(animated: true, completion: nil)
         }
         }else{

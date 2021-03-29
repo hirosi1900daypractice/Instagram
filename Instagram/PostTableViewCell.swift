@@ -10,17 +10,17 @@ import FirebaseUI
 
 
 class PostTableViewCell: UITableViewCell {
-
+    
     
     @IBOutlet weak var postImageView: UIImageView!
     
     
-   
+    
     
     
     @IBOutlet weak var likeButton: UIButton!
     @IBOutlet weak var likeLabel: UILabel!
-
+    
     @IBOutlet weak var dateLabel: UILabel!
     
     @IBOutlet weak var captionLabel: UILabel!
@@ -32,7 +32,7 @@ class PostTableViewCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
         
@@ -49,13 +49,15 @@ class PostTableViewCell: UITableViewCell {
         // キャプションの表示
         self.captionLabel.text = "キャプション\n\(postData.name!) : \(postData.caption!)"
         //コメント表示
+        self.commentLabel.text = ""
         let commentCount: Int = postData.comment.count
         var commentText: String = "コメント"
+        print(postData.comment)
         if(commentCount != 0){
-        for i in 0 ... commentCount - 1 {
-            commentText += "\n\(postData.comment[i]) "
-        }
-        self.commentLabel.text = commentText
+            for i in 0 ... commentCount - 1 {
+                commentText += "\n\(postData.comment[i]) "
+            }
+            self.commentLabel.text = commentText
         }
         // 日時の表示
         self.dateLabel.text = ""
